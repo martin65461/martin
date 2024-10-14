@@ -1,11 +1,10 @@
-body { background-color: #cdffbc;}
+body { background-color: #000000;}
 .todo {text-align: center;}
 .sub {font-family:cursive; }
 .titulo {font-family:cursive; }
-.sub {font-size: 32px;}
+.sub {font-size: 33px;}
 .sub {text-decoration: underline;}
 .titulo {text-decoration: underline;}
-.sub {background-color: #fcf9ef}
 .imagen1 {width: 400px; height: 300px}
 .imagen2 {width: 400px; height: 300px}
 .imagen3 {width: 400px; height: 300px}
@@ -30,4 +29,38 @@ body { background-color: #cdffbc;}
 }
 .float:hover{
   background-color: #28e76e;
+}
+
+
+
+section{color: #EABE3F
+}
+
+header{color: #EABE3F;
+
+
+}
+
+.logo img{
+  height: 155px
+}
+
+header{
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.info {
+  color: #EABE3F;
+  font-size: 10px
+}
+
+footer{
+  display: flex;
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
