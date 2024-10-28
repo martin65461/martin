@@ -5,9 +5,16 @@ body { background-color: #000000;}
 .sub {font-size: 33px;}
 .sub {text-decoration: underline;}
 .titulo {text-decoration: underline;}
-.imagen1 {width: 400px; height: 300px}
-.imagen2 {width: 400px; height: 300px}
-.imagen3 {width: 400px; height: 300px}
+.imagen1 {width: 40vw; height: 30vw}
+.imagen2 {width: 40vw; height: 30vw}
+.imagen3 {width: 40vw; height: 30vw}
+
+.titulos {text-align: center;
+color: #EABE3F}
+.titulos {font-family: cursive;}
+.titulos{font-size: 33px;}
+.titulos{text-decoration: underline;}
+
 
 .float{
  position: fixed;
@@ -37,14 +44,13 @@ section{color: #EABE3F
 }
 
 header{color: #EABE3F;
-
-
 }
+
+
 
 .logo img{
   height: 155px
 }
-
 header{
   display: flex;
   justify-content: flex-start;
@@ -53,14 +59,31 @@ header{
 }
 
 .info {
-  color: #EABE3F;
+  color: #000000;
   font-size: 10px
 }
 
 footer{
   display: flex;
-  display: flex;
   justify-content: flex-start;
   justify-content: space-between;
   flex-wrap: wrap;
+  align-items: center;
+  background-color: #EABE3F;
+
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+background-color: #EABE3f;
+}
+
+a:link {color: #EABE3F}
+a:visited {color: #000000}
+a:hover{ font-size: 20px}
+a:active {color: #ffffff}
+
+.contactos{
+  text-align: center;
 }
