@@ -5,9 +5,9 @@ body { background-color: #000000;}
 .sub {font-size: 33px;}
 .sub {text-decoration: underline;}
 .titulo {text-decoration: underline;}
-.imagen1 {width: 40vw; height: 30vw}
-.imagen2 {width: 40vw; height: 30vw}
-.imagen3 {width: 40vw; height: 30vw}
+.imagen1 {width: 30vw; height: 20vw}
+.imagen2 {width: 30vw; height: 20vw}
+.imagen3 {width: 30vw; height: 20vw}
 
 .titulos {text-align: center;
 color: #EABE3F}
@@ -16,27 +16,10 @@ color: #EABE3F}
 .titulos{text-decoration: underline;}
 
 
-.float{
- position: fixed;
- width: 80px;
- height: 80px;
- background-color: #25d366;
- bottom: 60px;
- right: 60px;
- color: #fff;
- border-radius: 50%;
- text-align: center;
- box-shadow: 2px 2px 3px #999;
- z-index: 999;
 
-}
 
-.fa-whatsapp{
-  font-size: 80px;
-}
-.float:hover{
-  background-color: #28e76e;
-}
+
+
 
 
 
@@ -79,11 +62,16 @@ nav{
 background-color: #EABE3f;
 }
 
-a:link {color: #EABE3F}
+a:link {color: #000000}
 a:visited {color: #000000}
 a:hover{ font-size: 20px}
 a:active {color: #ffffff}
 
 .contactos{
   text-align: center;
+}
+
+.whatss {
+  height: 80px;
+  width: 80px
 }
