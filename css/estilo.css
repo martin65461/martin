@@ -1,12 +1,38 @@
-body { background-color: #black;}
-.todo {text-align: center;}
+body { background-color: black;}
 .sub {font-family:cursive; }
-.titulo {font-family:cursive; }
-.sub {font-size: 33px;}
+.titulo {font-family:cursive;
+text-align: center;}
+.sub {font-size: 33px;
+text-align: center;}
+
+.whatss {
+  height: 80px;
+  width: 80px
+   position: fixed;
+   bottom: 20px;
+    right: 10px;
+}
+
+.ingre {
+  text-align: center;
+}
+
+.proceso {
+  text-align: center;
+
+}
+
+
+.sopa{
+  text-align: center;
+}
+
 .sub {text-decoration: underline;}
 .titulo {text-decoration: underline;}
 .imagen1 {width: 30vw; height: 20vw}
-.imagen2 {width: 30vw; height: 20vw}
+.imagen2 {width: 30vw; height: 20vw;
+
+}
 .imagen3 {width: 30vw; height: 20vw}
 
 .titulos {text-align: center;
@@ -16,9 +42,19 @@ color: #EABE3F}
 .titulos{text-decoration: underline;}
 
 
+@media (max-width: 990px) {
 
+.logo { display: none;
+}
 
+}
 
+@media (max-width: 990px) {
+
+.imagen2 { display: none;
+}
+
+}
 
 
 
@@ -41,8 +77,7 @@ header{
   flex-wrap: wrap;
 }
 
-.info {
-  color: #000000;
+.martinn{
   font-size: 10px
 }
 
@@ -72,6 +107,7 @@ a:active {color: #ffffff}
 }
 
 .whatss {
-  height: 80px;
-  width: 80px
+  position:fixed;
+  bottom: 20px;
+  right: 10px;
 }
