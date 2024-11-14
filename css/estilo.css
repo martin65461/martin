@@ -1,9 +1,21 @@
 body { background-color: black;}
-.sub {font-family:cursive; }
+
 .titulo {font-family:cursive;
 text-align: center;}
+.preparacion {font-size: 33px;
+text-align: start;
+font-family:cursive;
+text-decoration: underline;
+color: #000000}
+
+.sub{color: #000000}
+
+.ingredientes2 {color: #000000}
+
 .sub {font-size: 33px;
-text-align: center;}
+text-align: start;
+font-family:cursive;
+text-decoration: underline;}
 
 .whatss {
   height: 80px;
@@ -14,32 +26,58 @@ text-align: center;}
 }
 
 .ingre {
-  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  background-color: #EABE3F;
+  margin: 1%
+  color: #000000;
+
 }
 
 .proceso {
-  text-align: center;
-
+  display: flex;
+  justify-content: space-around;
+background-color: #EABE3F;
+color: #000000
 }
+
+.ingredientes {
+  text-align: start;
+color: #000000
+}
+
 
 
 .sopa{
   text-align: center;
 }
 
-.sub {text-decoration: underline;}
 .titulo {text-decoration: underline;}
 .imagen1 {width: 30vw; height: 20vw}
-.imagen2 {width: 30vw; height: 20vw;
-
-}
+.imagen2 {width: 30vw; height: 20vw;}
 .imagen3 {width: 30vw; height: 20vw}
 
-.titulos {text-align: center;
-color: #EABE3F}
-.titulos {font-family: cursive;}
-.titulos{font-size: 33px;}
-.titulos{text-decoration: underline;}
+.titulo1 {text-align: center;
+color: #EABE3F;
+font-family: cursive;
+font-size: 33px;
+text-decoration: underline;
+color: #000000
+}
+
+
+.titulo2 {text-align: center;
+color: #EABE3F;
+font-family: cursive;
+font-size: 32px;
+text-decoration: underline;}
+
+
+.titulo3 {text-align: center;
+color: #EABE3F;
+font-family: cursive;
+font-size: 31px;
+text-decoration: underline;}
 
 
 @media (max-width: 990px) {
@@ -51,11 +89,24 @@ color: #EABE3F}
 
 @media (max-width: 990px) {
 
-.imagen2 { display: none;
+.titulo1 { display: none;
 }
 
 }
 
+@media (max-width: 990px) {
+
+.titulo2 { display: none;
+}
+
+}
+
+@media (max-width: 990px) {
+
+.titulo3 { display: none;
+}
+
+}
 
 
 
@@ -75,11 +126,13 @@ header{
   justify-content: flex-start;
   justify-content: space-between;
   flex-wrap: wrap;
+  background-color: #000000
 }
 
 .martinn{
-  font-size: 10px
+  font-size: 10%
 }
+
 
 footer{
   display: flex;
@@ -88,6 +141,7 @@ footer{
   flex-wrap: wrap;
   align-items: center;
   background-color: #EABE3F;
+  margin: 1%
 
 }
 
@@ -95,6 +149,7 @@ nav{
   display: flex;
   justify-content: space-around;
 background-color: #EABE3f;
+margin: 1%
 }
 
 a:link {color: #000000}
@@ -111,3 +166,5 @@ a:active {color: #ffffff}
   bottom: 20px;
   right: 10px;
 }
+
+.container {background-color: #EABE3F}
